@@ -1,0 +1,82 @@
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(248, 164, 164);
+}
+
+ul {
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+li {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: rgb(220, 220, 220);
+    font-size: 1.5rem;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+li:hover, li:nth-child(even):hover {
+    background-color: rgb(180, 180, 180);
+}
+
+li:nth-child(even) {
+    padding: 1rem;
+    background-color: white;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+    background-color: rgb(180, 180, 180);
+    color: rgba(240, 240, 240, 0.5);
+}
+
+.addItemField {
+    text-align:center;
+    border-style: solid;
+    border-color: lightgrey;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    position: relative;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+.addItemText {
+    color:grey;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+
+.button {
+    color: rgb(248, 206, 206);
+    size: 3rem;
+    font-size: 1rem;
+}
+
+.button:hover {
+    color: black;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    padding-right: 5rem; 
+    color: black;
+}
